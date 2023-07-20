@@ -1,0 +1,123 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: grayscale;
+	font-size: 17px;
+	background: blac;
+	opacity: 15;
+	width: 100%;
+	max-width: 100%;
+	overflow-x: hidden;
+	text-align: justify;
+}
+
+@font-face{
+	font-family: Raleway;
+    src: url('../font/Raleway-Regular.ttf');
+}
+
+a{
+	color: #FE642E;
+	text-decoration: none;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+}
+
+a:focus{
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #FE642E;
+}
+
+.navbar-custom{
+    background-color: #FE642E;
+}
+
+.navbar-custom li{
+  list-style: none;
+}
+
+.navbar-custom button .icon-bar{
+    background-color: #FE642E;
+}
+.navbar-nav li a{
+    color: #F4D03F; 
+}
+
+.navbar-brand{
+  color: #F4D03F;
+}
+
+.navbar-custom .navbar-nav > li > a:hover{
+  color: #FE642E;
+  background-color: #F4D03F;
+}
+
+.navbar-custom .navbar-nav > .active{
+  background-color: #F1C40F;
+}
+
+.dropdown-menu{
+    background-color: #FE642E;
+}
+
+.dropdown-menu > li > a:hover{
+  color: #FE642E;
+  background-color: #F4D03F;
+}
+
+.dropdown-menu > .active{
+  background-color: #F1C40F;
+}
+
+.tile {
+	width: 100%;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	position: relative;
+}
+.tile-main span {
+	font-size: 300%;
+	position: absolute;
+	top: 15px;
+	right: 20px;
+}
+.tile-green > .tile-main {
+	background: green;
+	color: white;
+	padding:30px 10px;
+}
+.tile-green > .tile-link {
+	background: #65bf69;
+	color: white;
+	
+}
+.tile-blue > .tile-main {
+	background: #106dff;
+	color: white;
+	padding:30px 10px;
+}
+.tile-blue > .tile-link {
+	background: #FE642E;
+	color: white;
+	
+}
+.tile a {
+	color: white;
+	text-decoration: underline;
+	display: block;
+	padding:10px;
+}
+.list-student-names {
+	cursor: pointer;
+}
