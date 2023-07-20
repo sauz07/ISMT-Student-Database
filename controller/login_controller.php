@@ -13,12 +13,13 @@ if (isset($_POST['username'])){
     if($rows==1){
     	$data=mysqli_fetch_assoc($result);
 	    $_SESSION['username'] = $username;
+
 	    $type=$data['user_type'];
 	    $_SESSION['type']= $type;
 	    	if($type=="admin")
             header("Location: ../officer/main.php");
          }else{
-
+// User not found in the database
          	header("location: ../index.php");
          }
 	}

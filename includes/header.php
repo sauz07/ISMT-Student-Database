@@ -13,14 +13,21 @@
 </head>
 <body style="font-family: Raleway;">
 <div class="container">
+	<!-- Header section -->
 	<header class="header">
 		<div class="row">
 			<div class="col-sm-2">
-			<a href=""><img src="images/logo.jpg" height="165px" width="165px" style="vertical-align: middle;"></a>
+				<!-- Department of Information Technology logo -->
+				<a href=""><img src="images/logo.jpg" height="165px" width="165px" style="vertical-align: middle;"></a>
 			</div>
 			<div class="col-sm-10" style="text-align: left;">
+				<!-- Department name and ISMT Database link -->
 				<h1>Department of Information Technology</h1>
 				<a href="/testmis/"><h3>ISMT Database</h3></a>
 			</div>
 		</div>
 	</header><br /><br />
+	<!-- Add more content here -->
+</div>
+</body>
+</html>
